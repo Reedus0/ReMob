@@ -9,7 +9,8 @@ const AppRouter: FC = () => {
 
   return (
     <Stack.Navigator screenOptions={{
-      headerShown: false
+      headerShown: false,
+      animationEnabled: false
     }}>
       {isAuth
         ?

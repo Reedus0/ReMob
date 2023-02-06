@@ -2,6 +2,8 @@ import {StyleSheet} from 'react-native';
 
 export const styles = StyleSheet.create({
     screen: {
-        paddingTop: 22,
+        backgroundColor: '#fff',
+        minWidth: '100%',
+        minHeight: '100%'
     }
 })
