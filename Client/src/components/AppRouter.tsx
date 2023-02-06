@@ -8,9 +8,9 @@ const AppRouter: FC = () => {
   const { isAuth } = useTypedSelector(state => state.auth);
 
   return (
-    <Stack.Navigator screenOptions={{
+    <Stack.Navigator initialRouteName='Intro' screenOptions={{
       headerShown: false,
-      animationEnabled: false
+      animationEnabled: false,
     }}>
       {isAuth
         ?
