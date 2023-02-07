@@ -5,6 +5,7 @@ export const styles = StyleSheet.create({
         backgroundColor: '#fff',
         minWidth: '100%',
         minHeight: '100%',
-        position: 'relative'
+        position: 'relative',
+        padding: 10
     }
 })
